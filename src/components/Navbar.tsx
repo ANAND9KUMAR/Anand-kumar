@@ -95,9 +95,9 @@ const Navbar = () => {
               <a
                 href="#contact"
                 onClick={() => setMobileOpen(false)}
-                className="mt-2 text-center bg-primary text-white py-4 rounded-2xl font-bold text-lg"
+                className="mt-2 text-center bg-primary text-primary-foreground py-4 rounded-2xl font-bold text-lg hover:bg-primary/90 transition-all active:scale-[0.98] uppercase tracking-wider"
               >
-                Let's Talk
+                Connect
               </a>
             </div>
           </motion.div>
